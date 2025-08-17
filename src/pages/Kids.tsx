@@ -93,7 +93,7 @@ const Kids = () => {
   });
 
   return (
-    // <Layout>
+    {/* <Layout>*/}
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative h-96 bg-gradient-to-r from-accent-light to-accent flex items-center justify-center text-white">
@@ -230,7 +230,7 @@ const Kids = () => {
           </div>
         </div>
       </div>
-    // </Layout>
+{/*     </Layout> */}
   );
 };
 
