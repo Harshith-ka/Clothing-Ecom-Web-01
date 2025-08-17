@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import Layout from "@/components/layout/Layout";
+// import Layout from "@/components/layout/Layout";
 
 const Contact = () => {
   return (
