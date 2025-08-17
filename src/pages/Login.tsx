@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Eye, EyeOff, Mail, Lock, User, Phone } from "lucide-react";
-import Layout from "@/components/layout/Layout";
+
 import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -12,7 +12,7 @@ const Login = () => {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
   return (
-    <Layout>
+  
       <div className="min-h-screen bg-gradient-surface flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8">
           <div className="text-center">
@@ -222,7 +222,7 @@ const Login = () => {
           </Card>
         </div>
       </div>
-    </Layout>
+
   );
 };
 
