@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Heart, ShoppingCart, Star, Minus, Plus, Truck, Shield, RotateCcw } from "lucide-react";
 import AddToCartButton from "@/components/AddToCartButton";
-import Layout from "@/components/layout/Layout";
+
 
 const ProductDetail = () => {
   const { id } = useParams();
