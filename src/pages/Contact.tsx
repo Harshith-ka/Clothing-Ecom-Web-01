@@ -7,7 +7,7 @@ import Layout from "@/components/layout/Layout";
 
 const Contact = () => {
   return (
-    <Layout>
+    {/* <Layout>*/}
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative h-80 bg-gradient-primary flex items-center justify-center text-white">
@@ -217,7 +217,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </Layout>
+  {/* </Layout>*/}
   );
 };
 
