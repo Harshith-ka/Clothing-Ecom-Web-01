@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, ShoppingCart, Star, Filter } from "lucide-react";
 import AddToCartButton from "@/components/AddToCartButton";
-// import Layout from "@/components/layout/Layout";
+
 import { Link } from "react-router-dom";
 
 const Accessories = () => {
@@ -107,7 +107,7 @@ const Accessories = () => {
   });
 
   return (
-    {/* <Layout> */}
+
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative h-96 bg-gradient-gold flex items-center justify-center text-white">
@@ -244,7 +244,7 @@ const Accessories = () => {
           </div>
         </div>
       </div>
-    {/*</Layout> */}
+
   );
 };
 
