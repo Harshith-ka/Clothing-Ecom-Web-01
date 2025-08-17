@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
-import Layout from "@/components/layout/Layout";
+
 import { Link } from "react-router-dom";
 import { useCart } from "@/hooks/useCart";
 import { useState } from "react";
@@ -19,7 +19,7 @@ const Cart = () => {
 
   if (isEmpty) {
     return (
-      <Layout>
+   
         <div className="min-h-screen bg-background flex items-center justify-center">
           <div className="text-center max-w-md mx-auto px-4">
             <ShoppingBag className="h-24 w-24 text-muted-foreground mx-auto mb-6" />
@@ -214,7 +214,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-    </Layout>
+
   );
 };
 
