@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, ShoppingCart, Trash2, Star } from "lucide-react";
-import Layout from "@/components/layout/Layout";
+// import Layout from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
 
 const Wishlist = () => {
@@ -67,7 +67,7 @@ const Wishlist = () => {
 
   if (isEmpty) {
     return (
-      <Layout>
+      {/*   // <Layout> */}
         <div className="min-h-screen bg-background flex items-center justify-center">
           <div className="text-center max-w-md mx-auto px-4">
             <Heart className="h-24 w-24 text-muted-foreground mx-auto mb-6" />
@@ -230,7 +230,7 @@ const Wishlist = () => {
           </div>
         </div>
       </div>
-    </Layout>
+{/*     </Layout> */}
   );
 };
 
