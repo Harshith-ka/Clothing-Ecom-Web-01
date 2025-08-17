@@ -107,7 +107,7 @@ const Accessories = () => {
   });
 
   return (
-    <Layout>
+    {/* <Layout> */}
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative h-96 bg-gradient-gold flex items-center justify-center text-white">
@@ -244,7 +244,7 @@ const Accessories = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    {/*</Layout> */}
   );
 };
 
